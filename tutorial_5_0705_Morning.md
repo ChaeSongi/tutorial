@@ -188,7 +188,7 @@ for name, scores in candidates.items():
     vsum = 0
     for x in scores:
       vsum = vsum + (x - mean)**2  # 
-    var = vsum / n-1
+    var = vsum / (n-1)
     
 # 표준편차 구하기
     std = math.sqrt(var)
